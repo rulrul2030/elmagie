@@ -491,6 +491,7 @@ nav {
     font-size: 12px;
     position: relative;
     z-index: 100;
+    font-weight: 800;
 }
 
 #service .btn:hover {
@@ -498,7 +499,7 @@ nav {
     color: #bc8951;
     position: relative;
     z-index: 100;
-    font-weight: bolder;
+    font-weight: 800;
     transform: scale(1.1);
 }
 
@@ -555,7 +556,7 @@ nav {
     border-radius: 30px;
     transition: all 0.3s ease-in-out;
     margin-bottom: 12px;
-    font-size: 15px;
+    font-size: 12px;
     position: relative;
     z-index: 100;
 }
