@@ -486,7 +486,7 @@ nav {
     color: #fff6f1;
     font-weight: bolder;
     border-radius: 30px;
-    transition: all 0.5s;
+    transition: all 0.3s ease-in-out;
     margin-bottom: 214px;
     font-size: 12px;
     position: relative;
@@ -499,7 +499,9 @@ nav {
     position: relative;
     z-index: 100;
     font-weight: bolder;
+    transform: scale(1.1);
 }
+
 
 /*magazine-and-event*/
 #magazine-and-event .magazine-and-event-box {
@@ -551,7 +553,7 @@ nav {
     color: #fff6ff;
     font-weight: 800;
     border-radius: 30px;
-    transition: all 0.5s;
+    transition: all 0.3s ease-in-out;
     margin-bottom: 12px;
     font-size: 15px;
     position: relative;
@@ -563,6 +565,7 @@ nav {
     color: #bc8951;
     position: relative;
     z-index: 100;
+    transform: scale(1.1);
 }
 
 #magazine-and-event .event-box-one {
@@ -755,4 +758,13 @@ footer .footer-txt-four p {
 footer .footer-txt-four ul {
     display: flex;
     gap: 15px;
+}
+
+footer ul.footer-txt-four ul li a img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+footer ul.footer-txt-four ul li a:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
